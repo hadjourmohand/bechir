@@ -1,4 +1,7 @@
-package modele;
+package modele.caracteres;
+
+import modele.Enum.Couleur;
+import modele.Enum.CouleurBackgroud;
 
 public abstract class CaractereJeu {
     private char symbole;

@@ -1,4 +1,4 @@
-package modele;
+package modele.Enum;
 
 public enum Couleur {
 

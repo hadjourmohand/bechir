@@ -1,4 +1,4 @@
-package modele;
+package modele.Enum;
 
 public enum CouleurBackgroud {
     BLACK("\u001B[40m"),
