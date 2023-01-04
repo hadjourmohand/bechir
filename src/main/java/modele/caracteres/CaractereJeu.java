@@ -31,4 +31,9 @@ public abstract class CaractereJeu {
     public void setCouleurBackgroud(CouleurBackgroud couleurBackgroud) {
         this.couleurBackgroud = couleurBackgroud;
     }
+
+    public String getSymboleCouleur() {
+        return this.couleurBackgroud.getCouleur() + this.couleur.getCouleur() + this.symbole + CouleurBackgroud.RESET.getCouleur();
+    }
+
 }
