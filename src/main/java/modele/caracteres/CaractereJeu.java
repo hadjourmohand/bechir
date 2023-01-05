@@ -4,9 +4,9 @@ import modele.Enum.Couleur;
 import modele.Enum.CouleurBackgroud;
 
 public abstract class CaractereJeu {
-    private char symbole;
-    private Couleur couleur;
-    private CouleurBackgroud couleurBackgroud;
+    protected char symbole;
+    protected Couleur couleur;
+    protected CouleurBackgroud couleurBackgroud;
 
     public char getSymbole() {
         return symbole;

@@ -7,7 +7,7 @@ public class Champignon extends CaractereJeu{
 
     public Champignon() {
         super();
-        super.setSymbole('C');
+        super.setSymbole('c');
         super.setCouleur(Couleur.PURPLE);
         super.setCouleurBackgroud(CouleurBackgroud.WHITE);
     }
